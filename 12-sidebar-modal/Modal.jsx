@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { useGlobalContext } from "./context";
+import { useGlobalContext } from "../12-sidebar-modal/context";
 
 const Modal = () => {
   const { isModalOpen, closeModal } = useGlobalContext();
